@@ -1,0 +1,43 @@
+body{
+    font-family: 'Poppins', sans-serif;
+
+}
+.nav-item a:hover{
+   
+    color:black ;
+    transform:  scale(1.1);
+}
+
+
+.heading-style{
+    font-size: 45px;
+    font-weight: 900;
+    font-style: normal;
+    line-height: 70px;
+}
+.item-1{
+    background-size: cover;
+    background: #000;
+}
+@media only screen and (max-width: 768px) {
+.heading-style{
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 25px;
+}
+.cover-details{
+    text-align: center;
+    font-size: 10px;
+    line-height: 11px;
+    font-weight: 300;
+}
+.get-btn{
+    font-size: 14px;
+    padding: 6px 13px;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+    color: #fff;
+}
+    
+}
