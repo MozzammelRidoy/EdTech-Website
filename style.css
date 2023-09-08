@@ -37,6 +37,13 @@ body{
     background-size: cover;
     background: #000;
 }
+.fnq-style{
+    width: 50%;
+    margin: 0 auto;
+}
+.footer-style{
+    padding:5%;
+}
 @media only screen and (max-width: 768px) {
 .heading-style{
     font-size: 25px;
@@ -56,6 +63,10 @@ body{
     line-height: normal;
     text-align: center;
     color: #fff;
+}
+.fnq-style{
+    width: 100%;
+    margin: 0 auto;
 }
     
 }
